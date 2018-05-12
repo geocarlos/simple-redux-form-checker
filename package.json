@@ -1,0 +1,29 @@
+{
+  "name": "simple-redux-form-checker",
+  "version": "1.0.0",
+  "description": "Simple form checker for reducer. It can be used to check if the form fields are empty or if the characters entered by the user are less than an optional length, which can be set for the input fields.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geocarlos/simple-redux-form-checker.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "form",
+    "validation",
+    "form",
+    "checker",
+    "input",
+    "validation"
+  ],
+  "author": "geocarlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geocarlos/simple-redux-form-checker/issues"
+  },
+  "homepage": "https://github.com/geocarlos/simple-redux-form-checker#readme"
+}
