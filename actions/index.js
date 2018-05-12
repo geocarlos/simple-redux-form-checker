@@ -1,8 +1,8 @@
-export const CHECK_FORM_ERRORS = 'CHECK_FORM_ERRORS';
+export const CHECK_FORM = 'CHECK_FORM_ERRORS';
 
-export function checkFormErrors(formErrors = {}) {
+export function checkForm(formErrors = {}) {
   return {
-    type: CHECK_FORM_ERRORS,
+    type: CHECK_FORM,
     formErrors
   }
 }

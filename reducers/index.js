@@ -1,8 +1,8 @@
-import {CHECK_FORM_ERRORS} from '../actions';
+import {CHECK_FORM} from '../actions';
 
-export function formErrors(state = {}, action) {
+export function errors(state = {}, action) {
   switch (action.type) {
-    case CHECK_FORM_ERRORS:
+    case CHECK_FORM:
       return action.formErrors;
     default:
       return state;

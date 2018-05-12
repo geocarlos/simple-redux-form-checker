@@ -1,8 +1,8 @@
-import {checkFormErrors} from './actions';
-import {formErrors} from './reducers';
+import {checkForm} from './actions';
+import {errors} from './reducers';
 
-export checkFormErrors;
-export formErrors;
+export const checkFormErrors = checkForm;
+export const formErrors = errors;
 
 export function validateForm(formInputs, minLength = {}) {
   return new Promise((res, rej) => {
